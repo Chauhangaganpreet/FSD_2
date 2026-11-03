@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f3f6fb; color: #202938; }
+main { max-width: 800px; margin: 35px auto; padding: 26px; background: white; border-radius: 14px; box-shadow: 0 5px 25px #00000012; }
+h1 { margin-bottom: 5px; font-size: 27px; }
+.sub { color: #65728a; margin-top: 0; }
+form { display: grid; gap: 10px; padding: 18px; background: #f7f9fc; border-radius: 10px; }
+label { font-weight: bold; }
+textarea, input { width: 100%; padding: 11px; border: 1px solid #ccd4df; border-radius: 7px; font: inherit; }
+textarea { min-height: 85px; resize: vertical; }
+button { padding: 11px 15px; border: 0; border-radius: 7px; background: #1769aa; color: white; cursor: pointer; font-weight: bold; }
+button.refresh { margin-bottom: 12px; background: #526276; }
+article { border: 1px solid #e0e5ed; border-radius: 9px; padding: 15px; margin: 10px 0; }
+.status { float: right; font-size: 12px; padding: 4px 8px; border-radius: 12px; background: #fff0c2; }
+.status.PUBLISHED { background: #d9f8e4; }
+.status.FAILED { background: #ffe0e0; }
+small { color: #65728a; }
+@media (max-width: 600px) { main { margin: 0; border-radius: 0; padding: 18px; } h1 { font-size: 22px; } }
